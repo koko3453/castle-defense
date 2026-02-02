@@ -1,0 +1,23 @@
+# Executables
+*.exe
+*.exe~
+*.out
+*.app
+
+# Odin build artifacts
+*.o
+*.obj
+
+# Assets (not included in repo - add your own)
+src/assets/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

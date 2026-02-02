@@ -1,4 +1,4 @@
-# Rightward Hold - Castle Defense Game
+# Castle Defense Game / Work in progress
 
 A tile-based defense RTS built with Odin and Raylib.
 
@@ -94,32 +94,6 @@ Heroes:
 | Siege | Large brown | Targets walls and towers |
 | Flyer | Yellow triangle | Ignores walls |
 
-### Strategy Tips
-
-1. **Build Houses early** - You need supply to train units
-2. **Balance economy and defense** - Gold Mines near mountains, Farms for upkeep
-3. **Use walls wisely** - Funnel enemies through chokepoints
-4. **Heroes are efficient** - They don't use supply!
-5. **Watch your food** - Starving units take damage
-6. **Tower placement matters** - Cover approaches with overlapping fire
-
-## Game Design
-
-The core tension is **space pressure** and **supply pressure**:
-- Every tile used for housing can't be used for economy or towers
-- Every supply used for elite units means fewer total units
-- Heroes provide power without supply cost
-
-You cannot max everything. Choose your strategy!
-
-## Wave System
-
-- Waves scale in difficulty
-- Wave 3+: Armored enemies appear
-- Wave 5+: Assassins target your economy
-- Wave 7+: Siege units destroy your defenses
-- Wave 10+: Flyers bypass your walls
-- Wave 20: Victory!
 
 ## Project Structure
 
